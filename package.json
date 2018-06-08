@@ -2,7 +2,7 @@
   "name": "tesseract",
   "version": "0.0.1",
   "description": "The heart and soul of the Bastion bot.",
-  "main": "tesseract.js",
+  "main": "./dist/Tesseract.js",
   "scripts": {
     "gulp": "./node_modules/.bin/gulp",
     "start": "node .",
