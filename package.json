@@ -4,6 +4,7 @@
   "description": "The heart and soul of the Bastion bot.",
   "main": "tesseract.js",
   "scripts": {
+    "gulp": "./node_modules/.bin/gulp",
     "start": "node .",
     "test": "echo \"No tests provided.\" && exit 1"
   },
@@ -22,6 +23,8 @@
     "discord.js": "11.3.2"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^4.0.2",
     "typescript": "^2.9.1"
   }
 }
