@@ -19,6 +19,7 @@
     "removeComments": true,
     "resolveJsonModule": true,
     "rootDir": "src",
+    "sourceMap": true,
     "target": "es6"
   },
   "exclude": [
