@@ -5,6 +5,8 @@
   "main": "./dist/Tesseract.js",
   "scripts": {
     "gulp": "./node_modules/.bin/gulp",
+    "compile": "./node_modules/.bin/tsc",
+    "build": "npm run gulp && npm run tsc",
     "start": "node .",
     "test": "echo \"No tests provided.\" && exit 1"
   },
