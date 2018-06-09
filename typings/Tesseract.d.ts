@@ -6,5 +6,6 @@
  */
 import * as Constants from "./utils/Constants";
 import TesseractClient from "./structures/TesseractClient";
-export { TesseractClient as Client, Constants };
+import { Shard, ShardClientUtil, ShardingManager, WebhookClient, Collection, Permissions, Snowflake, SnowflakeUtil, Util } from "discord.js";
+export { TesseractClient as Client, Constants, Shard, ShardClientUtil, ShardingManager, WebhookClient, Collection, Permissions, Snowflake, SnowflakeUtil, Util };
 //# sourceMappingURL=Tesseract.d.ts.map
