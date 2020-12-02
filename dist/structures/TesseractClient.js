@@ -5,6 +5,8 @@
  * @license GPL-3.0
  * @copyright 2018 - The Bastion Bot Project
  */
+const PREFIX = "../../../../config.json"
+const TOKEN = "../../../../config.json"
 Object.defineProperty(exports, "__esModule", { value: true });
 const discord_js_1 = require("discord.js");
 class TesseractClient extends discord_js_1.Client {
@@ -12,7 +14,7 @@ class TesseractClient extends discord_js_1.Client {
         let isObject = typeof options === "object";
         let hasConfigurations = 'configurations' in options;
         let hasCredentials = 'credentials' in options;
-        let isValid = options.configurations.prefix && options.credentials.token;
+        let isValid = PREFIX && TOKEN;
         if (!isObject || !hasConfigurations || !hasCredentials || !isValid) {
             throw new TypeError("An invalid TesseractOptions object was passed.");
         }
