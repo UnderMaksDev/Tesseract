@@ -14,15 +14,15 @@
     "type": "git",
     "url": "git+https://github.com/TheBastionBot/Tesseract.git"
   },
-  "author": "Sankarsan Kampa (a.k.a. k3rn31p4nic)",
+  "author": "Sankarsan Kampa (a.k.a. k3rn31p4nic) to V12 by Script#4345",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/TheBastionBot/Tesseract/issues"
+    "url": "https://github.com/UnderMaksDev/Tesseract/issues"
   },
-  "homepage": "https://github.com/TheBastionBot/Tesseract#README",
+  "homepage": "https://github.com/UnderMaksDev/tesseract#README",
   "dependencies": {
-    "@types/node": "^10.3.2",
-    "discord.js": "11.3.2"
+    "@types/node": "^14.14.10",
+    "discord.js": "^12.5.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
